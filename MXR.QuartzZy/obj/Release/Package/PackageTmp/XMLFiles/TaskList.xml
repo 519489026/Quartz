@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ROOT>
+  <TASK KEY="COUNTDATA" DESC="点击、阅读、下载数据统计" TIMEOUT="300"></TASK>
+  <TASK KEY="CREATEACTIVECODE" DESC="创建可用的激活码" TIMEOUT="600"></TASK>  
+  <TASK KEY="BOOKCOUNT" DESC="图书统计" TIMEOUT="90"></TASK>
+  <TASK KEY="MxrCircleDataFill" DESC="梦想圈数据填充" TIMEOUT="30"></TASK>
+  <TASK KEY="HomePagePublish" DESC="梦想圈数据填充" TIMEOUT="30"></TASK>
+</ROOT>

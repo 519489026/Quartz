@@ -1,0 +1,16 @@
+﻿以新增TestBusiness程序为例：
+
+步骤一：在“XMLFiles\TaskList.xml”文件中，为新定时程序增加配置信息：
+	<TASK KEY="TEST" DESC="测试程序" TIMEOUT="10"></TASK>  
+  其中，KEY是主键值，DESC是描述，TIMEOUT是每隔多长时间运行一次（单位秒）
+
+
+步骤二：新建AutoCode\TestBusiness.cs文件，继承IJob，新增下面的函数：
+	public void Execute(IJobExecutionContext request)
+	{
+		//你的逻辑
+	}
+
+步骤三：在AutoCode\SwitchInterface.cs文件的switch中增加分支，代码示例如下：
+  case "TEST": BaseFactory.JobsFactory<TestBusiness>(nodeTask.Attributes["KEY"].Value, nodeTask.Attributes["DESC"].Value, ConvertHelper.ToInt32(nodeTask.Attributes["TIMEOUT"].Value)); break;
+	其中“TEST”是步骤一中的节点KEY值，TestBusiness是步骤二中的类名，其他各项参数直接复制即可

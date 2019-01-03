@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Publish\Quartz</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>07/26/2016 14:45:36</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>07/26/2016 14:46:57</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/MXR.QuartzZy.dll">
+      <publishTime>01/23/2017 19:15:22</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>07/26/2016 14:48:15</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/26/2016 14:47:07</publishTime>
+    </File>
+    <File Include="DLL/Common.Logging.Core.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="DLL/Common.Logging.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="DLL/Microsoft.AI.WindowsServer.XML">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="DLL/Quartz.dll">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/26/2016 14:47:07</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/26/2016 14:45:36</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>07/26/2016 14:45:36</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>07/26/2016 14:45:36</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>08/20/2016 15:37:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/23/2017 17:09:58</publishTime>
+    </File>
+    <File Include="XMLFiles/TaskList.xml">
+      <publishTime>01/23/2017 15:00:45</publishTime>
+    </File>
+    <File Include="新增定时程序流程.txt">
+      <publishTime>07/26/2016 14:47:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
